@@ -1,0 +1,10 @@
+A21:improvement
+A22:physical
+A23:concentration
+A24:display
+A25:sign
+A26:launch
+A27:association
+A28:gain
+A29:hand out
+A30:tour

@@ -1,0 +1,10 @@
+A1:ambitious
+A2:initiative
+A3:unveil
+A4:prescribe
+A5:treatment
+A6:range
+A7:lung
+A8:condition
+A9:issue
+A10:strategy
