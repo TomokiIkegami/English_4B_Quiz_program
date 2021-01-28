@@ -224,74 +224,14 @@ unit= input("学習する単元の数字を入力してください(1~{0},{1})".
 test_mode=input("テストモードを使用しますか？(y/n)>>")
 print("\n")
 
-#問題文と解答のテキストファイルを読み込む
 
-if unit=='1':
+#問題文と解答のテキストファイルを読み込む     
+f1=open(ques_template.format(unit),encoding="utf-8_sig")
+f2=open(ans_template.format(unit),encoding="utf-8_sig")
 
-   
-    f1=open(ques_template.format(unit),encoding="utf-8_sig")
-    f2=open(ans_template.format(unit),encoding="utf-8_sig")
-    
-    fm=wrong_template.format(unit)
-    file=result_file_name
-    file_cr=current_result_file_name
-    
-elif unit=='2':
-    
-    
-    f1=open(ques_template.format(unit),encoding="utf-8_sig")
-    f2=open(ans_template.format(unit),encoding="utf-8_sig")
-    
-    fm=wrong_template.format(unit)
-    file=result_file_name
-    file_cr=current_result_file_name
-    
-elif unit=='3':
-
-     
-    f1=open(ques_template.format(unit),encoding="utf-8_sig")
-    f2=open(ans_template.format(unit),encoding="utf-8_sig")
-    
-    fm=wrong_template.format(unit)
-    file=result_file_name
-    file_cr=current_result_file_name
-    
-elif unit=='4':
-
-     
-    f1=open(ques_template.format(unit),encoding="utf-8_sig")
-    f2=open(ans_template.format(unit),encoding="utf-8_sig")
-    
-    fm=wrong_template.format(unit)
-    file=result_file_name
-    file_cr=current_result_file_name
-    
-elif unit=='5':
-
-     
-    f1=open(ques_template.format(unit),encoding="utf-8_sig")
-    f2=open(ans_template.format(unit),encoding="utf-8_sig")
-    
-    fm=wrong_template.format(unit)
-    file=result_file_name
-    file_cr=current_result_file_name
- 
-    
-elif unit=='6':
-
-     
-    f1=open(ques_template.format(unit),encoding="utf-8_sig")
-    f2=open(ans_template.format(unit),encoding="utf-8_sig")
-    
-    fm=wrong_template.format(unit)
-    file=result_file_name
-    file_cr=current_result_file_name
-
-
-else:
-    print("\n")
-    print(" ******* 該当する単元はありません *******")
-
+fm=wrong_template.format(unit)
+file=result_file_name
+file_cr=current_result_file_name
 
 
 fmr = open(fm, "r", encoding = "utf_8")
